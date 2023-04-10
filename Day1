@@ -1,0 +1,9 @@
+package com.java100daychallege.java7daychallege;
+
+public class Day1 {
+	
+	public static void main(String args[]) {
+		System.out.println("Day1 -Hello");
+	}
+
+}
