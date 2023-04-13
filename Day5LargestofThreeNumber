@@ -1,0 +1,33 @@
+package com.java100daychallege.java7daychallege;
+
+import java.util.Scanner;
+
+public class Day5LargestofThreeNumber {
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int x,y,z;
+		
+		x = sc.nextInt();
+		y = sc.nextInt();
+		z = sc.nextInt();
+		
+		System.out.println("Enter the three Number");
+		
+		if(x>y && x>z) {
+			System.out.println("X is largest number");
+		}
+		else if(y>z && y>x) {
+			System.out.println("y is largest number");
+		}else
+		{
+			System.out.println("Z is the largest number");
+		}
+		
+				
+				
+	}
+
+}
