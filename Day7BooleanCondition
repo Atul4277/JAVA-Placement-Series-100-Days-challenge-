@@ -1,0 +1,20 @@
+package com.java100daychallege.java7daychallege;
+
+public class Day7BooleanCondition {
+	
+	public static void main(String[] args) {
+		
+		Boolean day7 = null;
+		
+		//boolean object === null
+			//	boolean primitive == false
+		
+		if(day7) {
+			System.out.println("Working fine");
+		}
+		else {
+			System.out.println("Not working fine");
+		}
+	}
+
+}
