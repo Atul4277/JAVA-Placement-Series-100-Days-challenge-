@@ -1,0 +1,27 @@
+package com.java100daychallege.java7daychallege;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+public class Day10Write {
+	
+	public static void main(String[] args) throws IOException {
+		
+		try {
+			//FileOutputStream fos = new FileOutputStream("C:\\Users\\91797\\Desktop\\Day10.txt");
+			FileInputStream fos = new FileInputStream("C:\\Users\\91797\\Desktop\\Day10.txt");
+		    int  i = fos.read();
+		    System.out.println((char)i);
+			//fos.write(76);
+			fos.close();
+			
+			System.out.println("Success");
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			System.out.println("Exception " +e);
+		}
+	}
+
+}
