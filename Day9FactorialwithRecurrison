@@ -1,0 +1,25 @@
+package com.java100daychallege.java7daychallege;
+
+public class Day9FactorialwithRecurrison {
+	
+	public static void main(String[] args) {
+		
+		System.out.println("Factorial is " + factorial(6));
+	}
+
+	private static int factorial(int i) {
+		
+		if(i ==1)
+			
+			return 1;
+		else
+
+		return i * (factorial(i-1));
+		//6*5 = 30
+		//30*4 = 120
+		//120*3 = 360
+		//360*2 = 720
+			//	720*1 = 720
+	}
+
+}
