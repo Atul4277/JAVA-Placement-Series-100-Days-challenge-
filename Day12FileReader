@@ -1,0 +1,20 @@
+package com.java100daychallege.java7daychallege;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class Day12FileReader {
+	
+	public static void main(String[] args) throws IOException {
+		
+		FileReader in = new FileReader("C:\\Users\\91797\\Desktop\\Day12.txt");
+		
+		BufferedReader br = new BufferedReader(in);
+		
+		String input = br.readLine();
+		
+		System.out.println("The enter Text is ---->" +input);
+	}
+
+}
