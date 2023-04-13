@@ -1,0 +1,15 @@
+package com.java100daychallege.java7daychallege;
+
+import java.net.InetAddress;
+import java.net.UnknownHostException;
+
+public class Day11IpAddress {
+
+	
+	public static void main(String[] args) throws UnknownHostException {
+		
+		InetAddress ip = InetAddress.getByName("www.atul-punjabistore.com");
+		System.out.println("HostName is " +ip.getHostName());
+		System.out.println("HostAddress is : " +ip.getHostAddress());
+	}
+}
