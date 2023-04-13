@@ -1,0 +1,26 @@
+package com.java100daychallege.java7daychallege;
+
+import java.util.Scanner;
+
+public class Day6SwapNumber {
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int x,y,temp;
+		
+		x = sc.nextInt();
+		y = sc.nextInt();
+		
+		System.out.println("before swapping \nx ="+x+"\by ="+y);
+		
+		temp =x;
+		x = y;
+		y = temp;
+		
+		
+		System.out.println("After swapping \nx ="+x+"\by ="+y);
+		
+	}
+
+}
