@@ -1,0 +1,18 @@
+package com.java100daychallege.java7daychallege;
+
+import java.io.IOException;
+
+public class Day8NotePad {
+	
+	public static void main(String[] args) {
+		
+		Runtime rs = Runtime.getRuntime();
+		
+		try {
+			rs.exec("notepad");
+		}catch(IOException e) {
+			System.out.println("Exception " +e);
+		}
+	}
+
+}
