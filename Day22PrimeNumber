@@ -1,0 +1,36 @@
+package com.java100daychallege.java7daychallege;
+
+import java.util.Scanner;
+
+public class Day22PrimeNumber {
+	
+	public static void main(String[] args) {
+		
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int n = sc.nextInt();
+		
+		int flag = 0;
+		
+	//	int 5 ---->1 or 5--->
+		for(int i =2;i<n-1;i++) {
+			
+			
+			if(n%2==0) {
+				
+				flag = flag +1;
+				
+				
+			}
+			
+		}
+		
+		if(flag == 0) {
+			System.out.println("Number is prime Number");
+		}else {
+			System.out.println("Number is not prime Number");
+		}
+	}
+
+}
