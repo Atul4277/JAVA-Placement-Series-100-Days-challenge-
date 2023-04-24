@@ -1,0 +1,23 @@
+package com.java100daychallege.java7daychallege;
+
+public class Day21ConvertStringToInteger {
+	
+	public static void main(String[] args) {
+		
+		String s = "500";
+		
+		int i = Integer.parseInt(s);
+		
+		System.out.println(s + 100);
+		System.out.println(i + 100);
+		
+		
+		int i1 = 700;
+		
+		String s1 = String.valueOf(i1);
+		
+		System.out.println(i1 + 100);
+		System.out.println(s1 + 100);
+	}
+
+}
